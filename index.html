@@ -1,11 +1,316 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="HIND Education connects refugee learners with language learning, volunteers, and future opportunities.">
+
+  <title>HIND Education | Education, Agency, Opportunity</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a href="index.html" class="logo">
+        <span class="logo-main">HIND</span>
+        <span class="logo-sub">Education</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#how-it-works">How it works</a>
+        <a href="#languages">Languages</a>
+        <a href="#opportunities">Opportunities</a>
+        <a href="#resources">Resources</a>
+        <a href="#art-forum">Refugee Art Forum</a>
+        <a href="#support">Find support</a>
+      </div>
+
+      <a
+        href="mailto:YOUR_EMAIL@example.com?subject=HIND%20Education%20Inquiry"
+        class="btn btn-primary nav-contact"
+      >
+        Get in touch <span aria-hidden="true">→</span>
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+
+        <h1>
+          Education.<br>
+          Agency.<br>
+          Opportunity.
+        </h1>
+
+        <p class="hero-description">
+          We are a global learning platform created to
+          support refugees in accessing education,
+          developing new skills, and exploring
+          future opportunities.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            href="mailto:YOUR_EMAIL@example.com?subject=HIND%20Education%20Inquiry"
+            class="btn btn-primary"
+          >
+            Get in touch
+            <span aria-hidden="true">→</span>
+          </a>
+
+          <a href="#support" class="btn btn-outline">
+            Find support
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span class="note-icon" aria-hidden="true">▣</span>
+          <span>Language learning and community support.</span>
+        </div>
+
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image">
+          <img
+            src="images/hero.jpg"
+            alt="People traveling together along a tree-lined path"
+          >
+
+          <blockquote class="hero-quote">
+            <p>
+              no one leaves home<br>
+              unless home is the<br>
+              mouth of a shark
+            </p>
+            <cite>— Warsan Shire</cite>
+          </blockquote>
+        </div>
+
+        <p class="image-caption">
+          Belonging begins in the everyday. /
+          Illustrative photography
+        </p>
+      </div>
+
+    </section>
+
+    <!-- WHO WE ARE -->
+    <section class="about-section" id="how-it-works">
+      <div class="container about-grid">
+
+        <div class="about-left">
+          <p class="section-label">01 / HOW IT WORKS</p>
+
+          <p class="about-statement">
+            Not starting over alone.
+            Starting something together.
+          </p>
+        </div>
+
+        <div class="about-right">
+          <h2>Who we are.</h2>
+
+          <p>
+            We connect refugee learners with experienced
+            teachers and dedicated volunteers from around
+            the world. Whether you want to learn a new
+            language, prepare for a language proficiency
+            test, or explore your next steps in education
+            and employment, we are here to help you
+            move forward.
+          </p>
+
+          <a
+            href="mailto:YOUR_EMAIL@example.com?subject=About%20HIND"
+            class="text-link"
+          >
+            Get to know HIND
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="languages-section" id="languages">
+      <div class="container">
+
+        <p class="section-label">
+          02 / AVAILABLE LANGUAGES
+        </p>
+
+        <div class="languages-heading">
+          <div>
+            <h2>Learn a language</h2>
+
+            <p>
+              We connect refugee learners with teachers
+              and volunteers who provide language-learning
+              support in a welcoming and supportive
+              environment.
+            </p>
+          </div>
+
+          <a
+            href="mailto:YOUR_EMAIL@example.com?subject=Volunteering%20with%20HIND"
+            class="text-link"
+          >
+            Explore volunteer roles
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="language-grid">
+
+          <article class="language-card">
+            <h3>English</h3>
+
+            <p>
+              Make conversation a comfortable place
+              to learn. Talk about daily life,
+              interests, and what comes next.
+            </p>
+
+            <div class="card-footer">
+              Conversation • Online or local
+            </div>
+          </article>
+
+          <article class="language-card">
+            <h3>Spanish <span>• Español</span></h3>
+
+            <p>
+              Explore the neighborhood, understand
+              transport, or prepare for an
+              appointment together.
+            </p>
+
+            <div class="card-footer">
+              Practical support • Local
+            </div>
+          </article>
+
+          <article class="language-card">
+            <h3>French <span>• français</span></h3>
+
+            <p>
+              Help someone tell their professional
+              story, explore job options, or
+              practice an interview.
+            </p>
+
+            <div class="card-footer">
+              Skills exchange • Online or local
+            </div>
+          </article>
+
+          <article class="language-card">
+            <h3>Japanese <span>• 日本語</span></h3>
+
+            <p>
+              Share a walk, a hobby, or a cup
+              of tea. Familiar faces can make
+              a new place feel more like home.
+            </p>
+
+            <div class="card-footer">
+              Community • Local
+            </div>
+          </article>
+
+        </div>
+
+        <p class="section-footnote">
+          Develop your speaking, listening, and everyday
+          communication skills with the support of
+          teachers and volunteers.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CONTACT / SUPPORT -->
+    <section class="support-section" id="support">
+      <div class="container support-content">
+        <p class="section-label">03 / GET INVOLVED</p>
+
+        <h2>Let's move forward together.</h2>
+
+        <p>
+          Whether you're looking for learning support
+          or hoping to volunteer, we'd love to hear
+          from you.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            class="btn btn-primary"
+            href="mailto:YOUR_EMAIL@example.com?subject=I%20am%20a%20student"
+          >
+            I'm a student →
+          </a>
+
+          <a
+            class="btn btn-outline"
+            href="mailto:YOUR_EMAIL@example.com?subject=I%20want%20to%20volunteer"
+          >
+            I want to volunteer →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-main">HIND</span>
+        <span class="logo-sub">Education</span>
+      </a>
+
+      <p>Education. Agency. Opportunity.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
