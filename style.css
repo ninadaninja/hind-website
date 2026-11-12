@@ -630,6 +630,210 @@ p {
   margin-bottom: 0;
 }
 
+
+/* ==================== EXPLORE YOUR FUTURE ==================== */
+
+.future-section {
+  background-color: #e8ede5;
+  padding: 64px 0;
+}
+
+/* Introduction */
+
+.future-header {
+  max-width: 780px;
+  margin-bottom: 44px;
+}
+
+.future-section .section-label {
+  color: #697d6e;
+  margin-bottom: 16px;
+}
+
+.future-header h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1.3;
+  color: #243d35;
+  margin-bottom: 24px;
+}
+
+.future-header p:not(.section-label) {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4c5e52;
+  margin-bottom: 16px;
+}
+
+/* Resources Heading */
+
+.future-resources-heading {
+  border-top: 1px solid #b7c8b9;
+  padding-top: 28px;
+  margin-bottom: 24px;
+}
+
+.future-resources-heading h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #243d35;
+  margin-bottom: 12px;
+}
+
+.future-resources-heading p {
+  color: #526158;
+  line-height: 1.7;
+}
+
+/* Resource Cards */
+
+.future-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.future-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffdf8;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #dce3d8;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.future-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(36, 61, 53, 0.08);
+}
+
+.future-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #f5e6dc;
+  border-radius: 50%;
+  margin-bottom: 28px;
+}
+
+.future-card-icon span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #a76d58;
+}
+
+.future-card-category {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #a76d58;
+  margin-bottom: 12px;
+}
+
+.future-card h4 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #243d35;
+  margin-bottom: 16px;
+}
+
+.future-card-content > p:last-child {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #526158;
+  margin-bottom: 28px;
+}
+
+/* Card Links */
+
+.future-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  margin-top: auto;
+  color: #a76d58;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 4px;
+  transition: gap 0.2s ease;
+}
+
+.future-card-link:hover {
+  gap: 14px;
+  color: #243d35;
+}
+
+.future-card-link:focus-visible {
+  outline: 2px solid #243d35;
+  outline-offset: 4px;
+}
+
+/* Disclaimer */
+
+.future-note {
+  margin-top: 24px;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: #697d6e;
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 768px) {
+  .future-section {
+    padding: 44px 0;
+  }
+
+  .future-header {
+    margin-bottom: 32px;
+  }
+
+  .future-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .future-card {
+    padding: 24px;
+  }
+
+  .future-card-icon {
+    margin-bottom: 20px;
+  }
+
+  .future-header h2 {
+    font-size: 2rem;
+  }
+
+  .future-resources-heading h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .future-card,
+  .future-card-link {
+    transition: none;
+  }
+
+  .future-card:hover {
+    transform: none;
+  }
+}
+
 /* =========================
    GET INVOLVED
 ========================= */
