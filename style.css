@@ -633,6 +633,17 @@ p {
 }
 
 
+.languages-coming-soon {
+  margin-top: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #a66c59;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+
 /* ==================== EXPLORE YOUR FUTURE ==================== */
 
 .future-section {
